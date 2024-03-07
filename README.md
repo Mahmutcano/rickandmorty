@@ -16,7 +16,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/rick-and-morty-character-explorer.git
+git clone https://github.com/Mahmutcano/rick-and-morty-character-explorer.git
 
 2. Navigate to the project directory:
 
@@ -30,7 +30,6 @@ npm install
 
 npm start
 
-
 The application will be available at `http://localhost:3000`.
 
 ## Usage
@@ -42,6 +41,7 @@ Upon launching the application, users are presented with a grid of characters fr
 - **Pagination**: Use the "Previous" and "Next" buttons to navigate through pages of characters.
 - **View Details**: Click on "View Details" to see more information about a character.
 - **Add to Favorites**: Logged-in users can add characters to their favorites by clicking on "Add to Favorites".
+- **Remove from Favorites**: Users can also remove characters from their favorites, managing their preferred list more effectively.
 
 ## Authentication
 
@@ -50,6 +50,7 @@ The application includes a simple authentication flow:
 - **Sign Up**: New users can create an account.
 - **Sign In**: Existing users can sign in to access their favorites.
 - **Add to Favorites**: Only authenticated users can add characters to their favorites. Attempting to add a character without being logged in redirects the user to the login page.
+- **Remove from Favorites**: Users can remove characters from their favorites at any time, allowing for dynamic preference management.
 
 ## Technologies Used
 
